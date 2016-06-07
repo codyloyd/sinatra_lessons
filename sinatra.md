@@ -27,7 +27,7 @@ There really isn't a whole lot new to learn, and the power it gives you is subst
         end 
     ```
     2. from the command line install the Sinatra gem by typing `gem install sinatra` then run the file you created: `ruby hi.rb`
-    3. visit the page in your browser at `http://localhost:4567`
+    3. visit the page in your browser at `http://localhost:4567/hi`
     4. (easy wasn't it?)
 2. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first few sections of it (at least read until section 6, "Views/Templates").  A lot of this stuff will be pretty familiar too you, though the syntax is probably new.  Almost everything you need to know is right here on this page.
 
