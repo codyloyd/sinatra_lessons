@@ -18,13 +18,14 @@ There really isn't a whole lot new to learn, and the power it gives you is subst
 ## Your Assignment
 
 1. Go to the [Sinatra website](http://www.sinatrarb.com/) and follow the (somewhat cryptic) instructions right on their front page:
-	1. create a file called `hi.rb` with the following code: 
+	1. create a file called `hi.rb` with the following code:
+
     ```ruby
         require 'sinatra'
 
         get '/hi' do
             "Hello World!"
-        end 
+        end
     ```
     2. from the command line install the Sinatra gem by typing `gem install sinatra` then run the file you created: `ruby hi.rb`
     3. visit the page in your browser at `http://localhost:4567/hi`

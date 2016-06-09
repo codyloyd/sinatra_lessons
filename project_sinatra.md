@@ -47,10 +47,10 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 
 1. The UI-implementation is up to you this time.  Keeping them text-based is acceptable, but now that we're on the web you can branch out with images to make something a little nicer.
 2. You can use your [jQuery skills](http://www.theodinproject.com/web-development-101/jquery-basics) to create animation and effects.
-3. _Extra Credit_ The free Heroku account only allows a limited number of projects, and if you're pushing everything you're creating then you've probably hit that limit.  You might consider using sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project. 
+3. _Extra Credit_ The free Heroku account only allows a limited number of projects, unless you add a credit card to your account. If you _do_ add your information, you can have unlimited projects, but they still limit how many of them can be "awake" at one time. You might consider using sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project.
 
 ## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* codyloyd's solution [github](https://github.com/codyloyd/sinatra-translator) / [see it on the web](https://cryptic-reaches-55962.herokuapp.com/)
+* codyloyd's solution [github](https://github.com/codyloyd/sinatra-codebreaker) / [see it on the web](https://crafty-breaker-4567.herokuapp.com/)
