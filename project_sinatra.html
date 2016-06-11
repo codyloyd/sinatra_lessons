@@ -1017,16 +1017,16 @@ body .markdown-body
 </style><title>project_sinatra</title></head><body><article class="markdown-body"><h1 id="projects-sinatra"><a name="user-content-projects-sinatra" href="#projects-sinatra" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Projects: Sinatra</h1>
 <p><em>Don&rsquo;t forget to use Git to save your projects!</em></p>
 <h2 id="project-1-a-simple-online-game"><a name="user-content-project-1-a-simple-online-game" href="#project-1-a-simple-online-game" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Project 1: A simple online game.</h2>
-<p>You&rsquo;ve seen how simple it can be to get something up and running using Sinatra, in this project you&rsquo;ll be following a tutorial to create a simple number guessing game.</p>
-<p>The tutorial leave most of the ruby code to you and just tells you how to do the new Sinatra stuff.  By this point the ruby code required should be pretty simple for you.</p>
+<p>You&rsquo;ve seen how simple it can be to get something up and running using Sinatra, so in this project you&rsquo;ll be following a tutorial to create a simple number guessing game.</p>
+<p>The tutorial leaves most of the ruby logic to you and just tells you how to do the new Sinatra stuff.  By this point the ruby code required should be pretty simple.</p>
 <h3 id="your-task"><a name="user-content-your-task" href="#your-task" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Your Task</h3>
 <ol>
 <li><a href="http://tutorials.jumpstartlab.com/projects/web_guesser.html">Do this project/tutorial from Jumpstart Lab</a>. Be sure to try out some of the Extensions at the end of the tutorial, that&rsquo;s the fun stuff!  </li>
 <li>Now might be a good time to remind yourself how HTML and CSS work, so take a <em>little</em> time to make it look pretty before moving on.</li>
 <li>Deploying a Sinatra app to Heroku takes a little bit more work but the process is fairly straightforward. Instructions can be found <a href="https://devcenter.heroku.com/articles/rack#sinatra">here</a><ol>
 <li>your <code>config.ru</code> file should require your main application file (it&rsquo;s probably <code>web_guesser.rb</code>)</li>
-<li>if you are using <code>sinatra/reloader</code>, you need to remove or comment out that line before pushing to Heroku.</li>
-<li>after you create your Gemfile, you need to run <code>bundle install</code> and add/commit the files to git before pushing to Heroku.</li>
+<li>if you are using <code>sinatra/reloader</code>, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add <code>if development?</code> to that line and Heroku will automatically know not to use it (and it will still work locally!).</li>
+<li>after creating your Gemfile, you need to run <code>bundle install</code> and add/commit the files to git before pushing to Heroku.</li>
 </ol>
 </li>
 </ol>
@@ -1039,7 +1039,7 @@ body .markdown-body
 <p>Revisit the ceasar cipher ruby script that you created during <a href="http://www.theodinproject.com/ruby-programming/building-blocks">Ruby Building Blocks</a> and use Sinatra to create a simple front-end for it.</p>
 <h3 id="your-task_1"><a name="user-content-your-task_1" href="#your-task_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Your Task</h3>
 <ol>
-<li>Start a new sinatra project (you can begin by doing a simple hello world as in the previous example)</li>
+<li>Start a new sinatra project (you can begin by doing a simple hello world as in the previous example, just to make sure everything is set up correctly)</li>
 <li>You should be able to do this with only one view, and a couple of routes, but feel free to be as fancy as you like.</li>
 <li><a href="https://devcenter.heroku.com/articles/rack#sinatra">Deploy to Heroku!</a></li>
 </ol>
@@ -1048,16 +1048,16 @@ body .markdown-body
 <ul>
 <li>codyloyd&rsquo;s solution <a href="https://github.com/codyloyd/sinatra-translator">github</a> / <a href="https://cryptic-reaches-55962.herokuapp.com/">see it on the web</a></li>
 </ul>
-<h2 id="project-3-a-web-game"><a name="user-content-project-3-a-web-game" href="#project-3-a-web-game" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Project 3: A Web-Game</h2>
+<h2 id="project-3-another-web-game"><a name="user-content-project-3-another-web-game" href="#project-3-another-web-game" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Project 3: Another Web-Game</h2>
 <p>Pick either Mastermind or Hangman and build a front end for it.  This one might take a little more work, but it should be well within your grasp at this point.  Have fun!</p>
 <h3 id="your-task_2"><a name="user-content-your-task_2" href="#your-task_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Your Task</h3>
 <ol>
-<li>The UI-implementation is up to you this time.  Keeping them text-based is acceptable, but now that we&rsquo;re on the web you can branch out with images to make something a little nicer.</li>
-<li>You can use your <a href="http://www.theodinproject.com/web-development-101/jquery-basics">jQuery skills</a> to create animation and effects.</li>
-<li><em>Extra Credit</em> The free Heroku account only allows a limited number of projects, and if you&rsquo;re pushing everything you&rsquo;re creating then you&rsquo;ve probably hit that limit.  You might consider using sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project. </li>
+<li>The UI-implementation is up to you this time.  Keeping them text-based is acceptable, but now that we&rsquo;re on the web you can branch out with images to make something a little nicer. You can even use your <a href="http://www.theodinproject.com/web-development-101/jquery-basics">jQuery skills</a> to create animation and effects.  </li>
+<li>Have fun!  Don&rsquo;t forget to make all of your friends play your game!</li>
+<li><em>Extra Credit</em> The free Heroku account only allows a limited number of projects, unless you add a credit card to your account. If you <em>do</em> add your information, you can have unlimited projects, but they still limit how many of them can be &ldquo;awake&rdquo; at one time. You might consider using sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project.</li>
 </ol>
 <h2 id="student-solutions_2"><a name="user-content-student-solutions_2" href="#student-solutions_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Student Solutions</h2>
 <p><em>Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the <a href="http://github.com/TheOdinProject/curriculum/blob/master/contributing.md">contributing page</a>.  Please include your partner&rsquo;s github handle somewhere in the description if they would like attribution.</em></p>
 <ul>
-<li>codyloyd&rsquo;s solution <a href="https://github.com/codyloyd/sinatra-translator">github</a> / <a href="https://cryptic-reaches-55962.herokuapp.com/">see it on the web</a></li>
+<li>codyloyd&rsquo;s solution - MasterMind: <a href="https://github.com/codyloyd/sinatra-codebreaker">github</a> / <a href="https://crafty-breaker-4567.herokuapp.com/">see it on the web</a> Hangman: <a href="https://github.com/codyloyd/hangman">github</a> / <a href="https://subtle-wording-4567.herokuapp.com/">see it on the web</a> </li>
 </ul></article></body></html>
